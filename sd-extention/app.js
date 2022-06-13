@@ -1,0 +1,19 @@
+let  password = document.getElementById('pass')
+let U = "QWEERTYUIOPLKJHGFDSAZXCVBNM "
+let L = "qwertyuioplkjhgfdsazxcvbnm"
+let N = "0123456789"
+let C = "!@#$%^&*(){}[]"
+let X =  U + L + N + C
+//76
+slc = Math.floor(Math.random() * 76);
+slc2 = Math.floor(Math.random() * 76);
+slc3 = Math.floor(Math.random() * 76);
+slc4 = Math.floor(Math.random() * 76);
+slc5 = Math.floor(Math.random() * 76);
+slc6 = Math.floor(Math.random() * 76);
+slc7 = Math.floor(Math.random() * 76);
+slc8 = Math.floor(Math.random() * 76);
+slc9 = Math.floor(Math.random() * 76);
+slc10 = Math.floor(Math.random() * 76);
+res = X[slc] + X[slc2] + X[slc3] + X[slc4] + X[slc5] + X[slc6]+ X[slc7] + X[slc8] + X[slc9] + X[slc10]
+password.value = res

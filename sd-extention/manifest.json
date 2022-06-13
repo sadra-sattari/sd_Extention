@@ -1,0 +1,11 @@
+{
+  "name": "Make ur Pass Strong",
+  "version": "1.0.0",
+  "description": " Make strong Password for your Social networks account with This Extension. \n you can find my Python tools in github \n searck RIpsaw " ,
+  "manifest_version" : 2 ,
+  "browser_action" : {
+    "default_popup" : "index.html" ,
+    "default_icon" : "logo.png" ,
+    "default_title" : "Strong Password"
+  }
+}
